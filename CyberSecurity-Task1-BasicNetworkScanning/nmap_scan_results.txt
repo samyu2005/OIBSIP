@@ -1,0 +1,34 @@
+Task: Basic Network Scanning with Nmap
+Target: DESKTOP-QHOJI2T (192.168.0.193)
+
+Commands Executed
+
+1. Basic Scan
+   nmap 192.168.0.193
+
+2. Service Version Scan
+   nmap -sV 192.168.0.193
+
+3. OS Detection Scan
+   nmap -O 192.168.0.193
+
+Open Ports
+
+135/tcp   MSRPC
+139/tcp   NetBIOS Session Service
+445/tcp   Microsoft-DS (SMB)
+2869/tcp  Microsoft HTTPAPI 2.0
+3306/tcp  MySQL
+55555/tcp Unknown
+
+OS Detection
+
+Microsoft Windows 10 (1809–21H2)
+Network Distance: 0 hops
+
+Observations
+
+- Six open TCP ports were identified.
+- Windows networking services were active.
+- A MySQL service was detected.
+- One unidentified service (55555) requires further investigation.
